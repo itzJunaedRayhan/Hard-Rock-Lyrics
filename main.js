@@ -4,6 +4,7 @@ document.getElementById('searchField').addEventListener('keypress', function(eve
     }
 })
 
+
 const searchSong = async() => {
     const searchText = document.getElementById('searchField').value;
     const url = `https://api.lyrics.ovh/suggest/${searchText}`;
